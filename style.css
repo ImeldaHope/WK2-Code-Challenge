@@ -1,0 +1,39 @@
+/*Form styling*/
+
+body {
+    text-align: center;
+}
+
+h1{
+    font-size: 2em;
+}
+
+form {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin:20px;
+}
+ul, li{
+    list-style-type: none;
+    font-size: 3rem;
+    margin: 20px;
+}
+
+label {
+    font-size: xx-large;
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 20px;
+}
+
+/* General button styling */
+button {
+    background-color: #4CAF50; 
+    border: none;             
+    color: white;             
+    padding: 15px 32px;         
+    margin: 10px 0px;          
+}

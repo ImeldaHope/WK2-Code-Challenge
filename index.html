@@ -7,7 +7,25 @@
     </head>
     <body>
         <div id="container">
-
+            <h1>SHOPPING LIST</h1>
+            <!-- Creates form to collect input -->
+            <form id="list_form" action="" method="POST">
+                <label>Items to Purchase</label>
+                <input type="text" id="input_list" placeholder="enter item"/>
+                <!-- Creates button to add items to the list -->
+                <button type="submit" class="input_submit">Add</button>
+            </form>
+            
+            <!-- List items added to shopping list -->
+            <div class="list" id="list_items">
+                <p> My shopping list items:</p>
+                <ul class="items">
+                    <!-- li elements will be appended here in the DOM -->
+                </ul>
+                <!-- Creates button to clear list  -->
+                 <button id="delete_btn"> Clear List </button>
+            </div>                  
         </div>
+        <script src="./index.js"></script>
     </body>
 </html>
